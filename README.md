@@ -11,7 +11,7 @@
 Site profissional do advogado **Thierre Brasileiro**, especializado em Direito Cível, Previdenciário e Penal.
 
 ## 🌐 Site Online
-**URL:** https://seu-usuario.github.io/nome-repositorio
+**URL:** https://thicas.github.io/thierrebrasileiroadv
 
 ## 📞 Contato Profissional
 - **Email:** thierrebrasileiro.adv@gmail.com
