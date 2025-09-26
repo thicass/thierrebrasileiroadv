@@ -1,45 +1,74 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Thierre Brasileiro | Advogado</title>
-  <link rel="stylesheet" href="style.css">
-  <!-- Ícones -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thierre Brasileiro - Advogado</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header>
-    <h1>Thierre Brasileiro</h1>
-    <h2>Advogado</h2>
-    <div class="icons">
-      <i class="fas fa-scale-balanced"></i>
-      <i class="fas fa-book"></i>
+    <div class="container">
+        <div class="card">
+            <!-- Header SOMENTE com Logo -->
+            <div class="header">
+                <div class="icon-left">⚖️</div>
+                <div class="header-content">
+                    <div class="logo-container">
+                        <img src="logo.png" alt="Thierre Brasileiro - Advogado" class="logo">
+                    </div>
+                </div>
+                <div class="icon-right">📚</div>
+            </div>
+
+            <!-- Foto Pessoal -->
+            <div class="photo-section">
+                <div class="photo-container">
+                    <img src="foto-thierre.jpg" alt="Thierre Brasileiro" class="profile-photo">
+                </div>
+            </div>
+
+            <!-- About Section -->
+            <div class="content">
+                <div class="about-section">
+                    <div class="section-title">
+                        <span class="icon">⚖️</span>
+                        <h2>Quem sou eu</h2>
+                        <span class="icon">📚</span>
+                    </div>
+                    <p class="about-text">
+                        Sou Thierre Brasileiro, advogado atuante nas áreas Cível, Previdenciária e Penal. 
+                        Também sou criador de conteúdos digitais voltados à Educação Jurídica, buscando 
+                        tornar o Direito mais acessível, claro e aplicável ao dia a dia de estudantes e profissionais.
+                    </p>
+                </div>
+
+                <div class="separator"></div>
+
+                <!-- Contact Section -->
+                <div class="contact-section">
+                    <h3>Contatos</h3>
+                    <div class="contact-buttons">
+                        <button class="contact-btn" onclick="openEmail()">
+                            📧 thierrebrasileiro.adv@gmail.com
+                        </button>
+                        <button class="contact-btn" onclick="openWhatsApp()">
+                            📱 WhatsApp +55 (74) 99189-4166
+                        </button>
+                        <button class="contact-btn" onclick="openInstagram()">
+                            📸 Instagram @thierreadv
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <p>© 2025 Thierre Brasileiro | Advogado e Educação Jurídica</p>
+        </div>
     </div>
-  </header>
 
-  <main>
-    <section class="about">
-      <h3>Quem sou eu</h3>
-      <p>
-        Sou <strong>Thierre Brasileiro</strong>, advogado atuante nas áreas Cível, Previdenciária e Penal.
-        Também sou criador de conteúdos digitais voltados à Educação Jurídica, buscando tornar o Direito mais acessível,
-        claro e aplicável ao dia a dia de estudantes e profissionais.
-      </p>
-    </section>
-
-    <section class="contacts">
-      <h3>Entre em Contato</h3>
-      <div class="buttons">
-        <a href="mailto:thierrebrasileiro.adv@gmail.com" class="btn"><i class="fas fa-envelope"></i> Email</a>
-        <a href="https://wa.me/5574991894166" target="_blank" class="btn"><i class="fab fa-whatsapp"></i> WhatsApp</a>
-        <a href="https://instagram.com/thierreadv" target="_blank" class="btn"><i class="fab fa-instagram"></i> Instagram</a>
-      </div>
-    </section>
-  </main>
-
-  <footer>
-    <p>© 2025 Thierre Brasileiro | Advogado e Educação Jurídica</p>
-  </footer>
+    <script src="script.js"></script>
 </body>
 </html>
